@@ -1,0 +1,32 @@
+name: xylophone
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  audioplayers: ^0.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/animal1.wav
+    - assets/animal2.wav
+    - assets/animal3.wav
+    - images/animal1.jpeg
+    - images/animal2.jpeg
+    - images/animal3.jpeg
+    
+
